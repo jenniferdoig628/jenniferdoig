@@ -18,20 +18,27 @@ margin: 0;
 
 header {
     
-    font-family: The Girl Next Door, cursive; 
+    font-family: Raleway Dots, cursive; 
     text-transform: bold, uppercase;
     text-align: center; 
     width: 100%;
-    height:400px;
+    height:300px;
     margin-top: 0; 
+    margin-bottom: px;
+    
 
 }
 
 
-
+header img {
+    
+    width: 1000px;
+    
+}
 
 header h1 {
     
+    font-family: Raleway Dots, Cursive; 
     font-size: 150px;
     color: black; 
  
@@ -112,10 +119,6 @@ nav li:hover {
    
 }
 
-img {
-    
-   
-}
 
 .piclink {
     
@@ -223,6 +226,8 @@ form {
     border-radius: 40px;
     background-color: pink;
     color: black;
+    width: 300px;
+    
     
 }
 
@@ -230,4 +235,52 @@ input {
     border: none; 
     background: transparent;
     text-align: center;
+    font-family: Waiting for the Sunrise, cursive;
+    font-size: 30px;
 }
+
+
+
+.program p {
+    
+    text-align: center; 
+    display: inline-flex; 
+    padding: 30px;
+    
+}
+
+
+.footer {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-content: space-around;
+    margin-bottom: 100px; 
+}
+
+
+
+
+.footer ul li {
+
+    list-style: none;
+    margin: auto; 
+    width: 100px;
+    display: inline-block;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Waiting for the Sunrise; 
+    font-size: 30px;
+
+}
+
+.footer img {
+    
+    width: 100px;
+    height: 100px; 
+    
+}
+
+
+
